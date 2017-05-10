@@ -11,12 +11,17 @@
 #import "ImageLayerVC.h"
 #import "ImageSpritesVC.h"
 #import "ModulesViewController.h"
+#import "ContentsCenterVC.h"
+#import "LayerDelegateVC.h"
 
 static NSString * identifier = @"identifier";
 static NSString *blueLayer = @"blueLayer";
 static NSString *imageLayer = @"imageLayer";
 static NSString *imageSprites = @"image sprites";
 static NSString *modules = @"modules";
+static NSString *contentCenter = @"contentCenter";
+static NSString *CALayerDelegate = @"CALayerDelegate";
+
 //NSString *blueLayer = @"blueLayer";
 
 
@@ -48,6 +53,8 @@ static NSString *modules = @"modules";
                                                   imageLayer,
                                                   imageSprites,
                                                   modules,
+                                                  contentCenter,
+                                                  CALayerDelegate,
                                                   ]];
     
 }
@@ -90,6 +97,10 @@ static NSString *modules = @"modules";
         vc = [ImageSpritesVC new];
     } else if ([type isEqualToString:modules]) {
         vc = [ModulesViewController new];
+    } else if ([type isEqualToString:contentCenter]) {
+        vc = [ContentsCenterVC new];
+    } else if ([type isEqualToString:CALayerDelegate]) {
+        vc = [LayerDelegateVC new];
     }
     
     [self.navigationController pushViewController:vc animated:YES];
