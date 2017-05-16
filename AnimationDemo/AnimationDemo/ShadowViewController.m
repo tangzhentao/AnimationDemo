@@ -34,6 +34,14 @@
 - (void)addShadow
 {
     self.layerView.shadowOpacity = 0.5;
+    self.layerView.shadowOffset = CGSizeMake(0, 3);
+    self.layerView.shadowRadius = 5;
+    
+    // 这样会把阴影也剪切掉
+//    self.layerView.masksToBounds = YES;
+
+
+
 }
 
 - (void)didReceiveMemoryWarning {
