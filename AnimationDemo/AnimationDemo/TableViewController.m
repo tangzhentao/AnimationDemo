@@ -13,6 +13,7 @@
 #import "ModulesViewController.h"
 #import "ContentsCenterVC.h"
 #import "LayerDelegateVC.h"
+#import "AnchorPointVC.h"
 
 static NSString * identifier = @"identifier";
 static NSString *blueLayer = @"blueLayer";
@@ -21,6 +22,7 @@ static NSString *imageSprites = @"image sprites";
 static NSString *modules = @"modules";
 static NSString *contentCenter = @"contentCenter";
 static NSString *CALayerDelegate = @"CALayerDelegate";
+static NSString *anchorPoint = @"anchorPoint";
 
 //NSString *blueLayer = @"blueLayer";
 
@@ -55,6 +57,7 @@ static NSString *CALayerDelegate = @"CALayerDelegate";
                                                   modules,
                                                   contentCenter,
                                                   CALayerDelegate,
+                                                  anchorPoint,
                                                   ]];
     
 }
@@ -101,6 +104,8 @@ static NSString *CALayerDelegate = @"CALayerDelegate";
         vc = [ContentsCenterVC new];
     } else if ([type isEqualToString:CALayerDelegate]) {
         vc = [LayerDelegateVC new];
+    } else if ([type isEqualToString:anchorPoint]) {
+        vc = [AnchorPointVC new];
     }
     
     [self.navigationController pushViewController:vc animated:YES];

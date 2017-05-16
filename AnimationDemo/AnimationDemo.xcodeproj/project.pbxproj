@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		242C199D1EC4522A00D5E16E /* AnchorPointVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 242C199C1EC4522A00D5E16E /* AnchorPointVC.m */; };
 		249173931EC2A1120020C8BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 249173921EC2A1120020C8BC /* main.m */; };
 		249173961EC2A1120020C8BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 249173951EC2A1120020C8BC /* AppDelegate.m */; };
 		249173991EC2A1120020C8BC /* BlueLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 249173981EC2A1120020C8BC /* BlueLayerVC.m */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		242C199B1EC4522A00D5E16E /* AnchorPointVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnchorPointVC.h; sourceTree = "<group>"; };
+		242C199C1EC4522A00D5E16E /* AnchorPointVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnchorPointVC.m; sourceTree = "<group>"; };
 		2491738E1EC2A1120020C8BC /* AnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		249173921EC2A1120020C8BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		249173941EC2A1120020C8BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -95,6 +98,8 @@
 				249B00A91EC3659D0034ACF1 /* ContentsCenterVC.m */,
 				249B00AB1EC36DDF0034ACF1 /* LayerDelegateVC.h */,
 				249B00AC1EC36DDF0034ACF1 /* LayerDelegateVC.m */,
+				242C199B1EC4522A00D5E16E /* AnchorPointVC.h */,
+				242C199C1EC4522A00D5E16E /* AnchorPointVC.m */,
 				2491739A1EC2A1120020C8BC /* Assets.xcassets */,
 				2491739C1EC2A1120020C8BC /* LaunchScreen.storyboard */,
 				2491739F1EC2A1120020C8BC /* Info.plist */,
@@ -190,6 +195,7 @@
 				249173AD1EC2BFF10020C8BC /* ImageLayerVC.m in Sources */,
 				249173931EC2A1120020C8BC /* main.m in Sources */,
 				249173A71EC2B5830020C8BC /* TableViewController.m in Sources */,
+				242C199D1EC4522A00D5E16E /* AnchorPointVC.m in Sources */,
 				249173AA1EC2BF850020C8BC /* LayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
