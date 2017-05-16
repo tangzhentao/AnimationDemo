@@ -14,6 +14,7 @@
 #import "ContentsCenterVC.h"
 #import "LayerDelegateVC.h"
 #import "AnchorPointVC.h"
+#import "ShadowViewController.h"
 
 static NSString * identifier = @"identifier";
 static NSString *blueLayer = @"blueLayer";
@@ -23,6 +24,7 @@ static NSString *modules = @"modules";
 static NSString *contentCenter = @"contentCenter";
 static NSString *CALayerDelegate = @"CALayerDelegate";
 static NSString *anchorPoint = @"anchorPoint";
+static NSString *layerShadow = @"layerShadow";
 
 //NSString *blueLayer = @"blueLayer";
 
@@ -58,6 +60,7 @@ static NSString *anchorPoint = @"anchorPoint";
                                                   contentCenter,
                                                   CALayerDelegate,
                                                   anchorPoint,
+                                                  layerShadow,
                                                   ]];
     
 }
@@ -106,6 +109,8 @@ static NSString *anchorPoint = @"anchorPoint";
         vc = [LayerDelegateVC new];
     } else if ([type isEqualToString:anchorPoint]) {
         vc = [AnchorPointVC new];
+    } else if ([type isEqualToString:layerShadow]) {
+        vc = [ShadowViewController new];
     }
     
     [self.navigationController pushViewController:vc animated:YES];
