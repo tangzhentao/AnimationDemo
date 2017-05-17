@@ -33,7 +33,10 @@
 
 - (void)addShadow
 {
-    self.layerView.shadowOpacity = 0.5;
+    self.layerView.shadowOpacity = 0.3;
+    self.layerView.shadowOffset = CGSizeMake(10, 10);
+    self.layerView.shadowRadius = 5;
+
 }
 
 - (void)didReceiveMemoryWarning {
