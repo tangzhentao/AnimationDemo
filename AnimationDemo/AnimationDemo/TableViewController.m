@@ -15,6 +15,9 @@
 #import "LayerDelegateVC.h"
 #import "AnchorPointVC.h"
 #import "ShadowViewController.h"
+#import "ShadowPathVC.h"
+#import "MaskLayerVC.h"
+#import "ScalingFilterVC.h"
 
 static NSString * identifier = @"identifier";
 static NSString *blueLayer = @"blueLayer";
@@ -25,6 +28,9 @@ static NSString *contentCenter = @"contentCenter";
 static NSString *CALayerDelegate = @"CALayerDelegate";
 static NSString *anchorPoint = @"anchorPoint";
 static NSString *layerShadow = @"layerShadow";
+static NSString *shadowPath = @"shadowPath";
+static NSString *maskLayer = @"maskLayer";
+static NSString *scalingFilter = @"拉伸过滤";
 
 //NSString *blueLayer = @"blueLayer";
 
@@ -61,6 +67,9 @@ static NSString *layerShadow = @"layerShadow";
                                                   CALayerDelegate,
                                                   anchorPoint,
                                                   layerShadow,
+                                                  shadowPath,
+                                                  maskLayer,
+                                                  scalingFilter,
                                                   ]];
     
 }
@@ -111,7 +120,15 @@ static NSString *layerShadow = @"layerShadow";
         vc = [AnchorPointVC new];
     } else if ([type isEqualToString:layerShadow]) {
         vc = [ShadowViewController new];
+    } else if ([type isEqualToString:shadowPath]) {
+        vc = [ShadowPathVC new];
+    } else if ([type isEqualToString:maskLayer]) {
+        vc = [MaskLayerVC new];
+    } else if ([type isEqualToString:scalingFilter]) {
+        vc = [ScalingFilterVC new];
     }
+    
+    
     
     [self.navigationController pushViewController:vc animated:YES];
 }
