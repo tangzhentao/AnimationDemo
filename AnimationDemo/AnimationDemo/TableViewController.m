@@ -18,6 +18,7 @@
 #import "ShadowPathVC.h"
 #import "MaskLayerVC.h"
 #import "ScalingFilterVC.h"
+#import "GroupOpaqueVC.h"
 
 static NSString * identifier = @"identifier";
 static NSString *blueLayer = @"blueLayer";
@@ -31,6 +32,7 @@ static NSString *layerShadow = @"layerShadow";
 static NSString *shadowPath = @"shadowPath";
 static NSString *maskLayer = @"maskLayer";
 static NSString *scalingFilter = @"拉伸过滤";
+static NSString *groupOpaque = @"组透明";
 
 //NSString *blueLayer = @"blueLayer";
 
@@ -70,6 +72,7 @@ static NSString *scalingFilter = @"拉伸过滤";
                                                   shadowPath,
                                                   maskLayer,
                                                   scalingFilter,
+                                                  groupOpaque,
                                                   ]];
     
 }
@@ -126,6 +129,8 @@ static NSString *scalingFilter = @"拉伸过滤";
         vc = [MaskLayerVC new];
     } else if ([type isEqualToString:scalingFilter]) {
         vc = [ScalingFilterVC new];
+    } else if ([type isEqualToString:groupOpaque]) {
+        vc = [GroupOpaqueVC new];
     }
     
     

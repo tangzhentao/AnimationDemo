@@ -12,6 +12,7 @@
 		243B55BB1ECBF980008DB310 /* MaskLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 243B55BA1ECBF980008DB310 /* MaskLayerVC.m */; };
 		243B55BE1ECC16E4008DB310 /* ScalingFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 243B55BD1ECC16E4008DB310 /* ScalingFilterVC.m */; };
 		2445CA111ECAF2A900108FCE /* ShadowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2445CA101ECAF2A900108FCE /* ShadowViewController.m */; };
+		247C12B91ECD835C002D7EDC /* GroupOpaqueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 247C12B81ECD835C002D7EDC /* GroupOpaqueVC.m */; };
 		249173931EC2A1120020C8BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 249173921EC2A1120020C8BC /* main.m */; };
 		249173961EC2A1120020C8BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 249173951EC2A1120020C8BC /* AppDelegate.m */; };
 		249173991EC2A1120020C8BC /* BlueLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 249173981EC2A1120020C8BC /* BlueLayerVC.m */; };
@@ -37,6 +38,8 @@
 		243B55BD1ECC16E4008DB310 /* ScalingFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScalingFilterVC.m; sourceTree = "<group>"; };
 		2445CA0F1ECAF2A900108FCE /* ShadowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowViewController.h; sourceTree = "<group>"; };
 		2445CA101ECAF2A900108FCE /* ShadowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowViewController.m; sourceTree = "<group>"; };
+		247C12B71ECD835C002D7EDC /* GroupOpaqueVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupOpaqueVC.h; sourceTree = "<group>"; };
+		247C12B81ECD835C002D7EDC /* GroupOpaqueVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupOpaqueVC.m; sourceTree = "<group>"; };
 		2491738E1EC2A1120020C8BC /* AnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		249173921EC2A1120020C8BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		249173941EC2A1120020C8BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				243B55BA1ECBF980008DB310 /* MaskLayerVC.m */,
 				243B55BC1ECC16E4008DB310 /* ScalingFilterVC.h */,
 				243B55BD1ECC16E4008DB310 /* ScalingFilterVC.m */,
+				247C12B71ECD835C002D7EDC /* GroupOpaqueVC.h */,
+				247C12B81ECD835C002D7EDC /* GroupOpaqueVC.m */,
 				2491739A1EC2A1120020C8BC /* Assets.xcassets */,
 				2491739C1EC2A1120020C8BC /* LaunchScreen.storyboard */,
 				2491739F1EC2A1120020C8BC /* Info.plist */,
@@ -217,6 +222,7 @@
 				243B55BE1ECC16E4008DB310 /* ScalingFilterVC.m in Sources */,
 				249173AD1EC2BFF10020C8BC /* ImageLayerVC.m in Sources */,
 				243B55B81ECBDF1E008DB310 /* ShadowPathVC.m in Sources */,
+				247C12B91ECD835C002D7EDC /* GroupOpaqueVC.m in Sources */,
 				249173931EC2A1120020C8BC /* main.m in Sources */,
 				249173A71EC2B5830020C8BC /* TableViewController.m in Sources */,
 				242C199D1EC4522A00D5E16E /* AnchorPointVC.m in Sources */,
